@@ -17,6 +17,12 @@ name: "installation"},
 message: "What license do you want to use?",
 name: "license", 
 choices: ["BSD_3", "GPL_3.0","none"]},
+{type: "input",
+message: "How do you use your application?",
+name: "usage"},
+{type: "input",
+message: "Who contributed to building your application?",
+name: "contributors"},
 
 ];
 
